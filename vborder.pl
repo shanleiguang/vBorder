@@ -124,18 +124,18 @@ print '-'x60, "\n";
 
 sub print_help {
     print <<END
-    ./$software $version，为摄影作品添加EXIF风格化边框
+    ./$software $version，是一款为摄影作品添加EXIF个性边框的工具
     -f\tsrc/目录下带后缀的照片文件名
     -t\t边框风格，预设'black、dark、light、white'四种，可按需增删改'%border_styles'
     -w\t生成边框图宽度，默认为1080
     -p\t仅列印照片基本信息，包括自动读取出的EXIF信息和程序参数指定信息，程序参数优先
       \t*当EXIF信息不全不准时（如胶片作品）使用以下参数设置，参数值字符串存在空格时用单引号包含
-    -c\t相机制作商
+    -c\t相机制造商
     -m\t相机型号
     -l\t镜头类型
     -i\t拍摄ISO
     -a\t拍摄光圈
-    -s\t拍摄快门
+    -s\t拍摄快门速度
         作者：GitHub\@shanleiguang@, 小红书\@兀雨书屋，2025
 END
 }
